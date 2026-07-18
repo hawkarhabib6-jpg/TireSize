@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">قەبارەی تایە</string>
+    <string name="search_hint">گەڕان: ناوی ئۆتۆمبیل و ساڵ (Altima 2017 / ئالتیما)</string>
+    <string name="result_count">%d ئەنجام</string>
+    <string name="disclaimer">تێبینی: قەبارەکان بەپێی جۆری تریم دەگۆڕێن — بۆ دڵنیابوون سەیری پلاکی ناو دەرگای شۆفێر بکە.</string>
+    <string name="online_search">🌐 گەڕانی ئۆنلاین بۆ ئەم ئۆتۆمبیلە</string>
+    <string name="api_key_title">کلیلی API</string>
+    <string name="api_key_message">بۆ گەڕانی ئۆنلاین پێویستە کلیلی API لە console.anthropic.com وەربگریت و لێرە دایبنێیت. تەنها جارێک داوا دەکرێت و لەسەر مۆبایلەکەت هەڵدەگیرێت.</string>
+    <string name="api_key_hint">sk-ant-…</string>
+    <string name="save">هەڵگرتن</string>
+    <string name="cancel">هەڵوەشاندنەوە</string>
+    <string name="searching_online">گەڕان لە ئینتەرنێت…</string>
+    <string name="ai_badge">ئەنجامی ئۆنلاین (AI)</string>
+    <string name="ai_disclaimer">⚠️ ئەم ئەنجامە لە زیرەکی دەستکردەوەیە — پێش گۆڕینی تایە، لەگەڵ پلاکی ناو دەرگای شۆفێر بەراوردی بکە.</string>
+    <string name="online_error">گەڕانی ئۆنلاین سەرکەوتوو نەبوو — ئینتەرنێت و کلیلی API بپشکنە.</string>
+    <string name="not_identified">نەناسرایەوە — براند و مۆدێل و ساڵەکە ڕوونتر بنووسە (بۆ نموونە: Peugeot 508 2021).</string>
+    <string name="change_api_key">گۆڕینی کلیلی API</string>
+</resources>
