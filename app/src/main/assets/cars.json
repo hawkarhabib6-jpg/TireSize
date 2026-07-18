@@ -1,5 +1,198 @@
 [
  {
+  "brand": "Audi",
+  "model": "A4",
+  "yearFrom": 2017,
+  "yearTo": 2024,
+  "sizes": [
+   "225/50R17"
+  ],
+  "aliases": [
+   "ئاودی",
+   "اودي",
+   "اي 4"
+  ]
+ },
+ {
+  "brand": "Audi",
+  "model": "A6",
+  "yearFrom": 2019,
+  "yearTo": 2025,
+  "sizes": [
+   "225/55R18"
+  ],
+  "aliases": [
+   "ئاودی",
+   "اودي",
+   "اي 6"
+  ]
+ },
+ {
+  "brand": "Audi",
+  "model": "Q5",
+  "yearFrom": 2018,
+  "yearTo": 2024,
+  "sizes": [
+   "235/60R18",
+   "235/55R19"
+  ],
+  "aliases": [
+   "ئاودی",
+   "اودي",
+   "كيو 5"
+  ]
+ },
+ {
+  "brand": "Audi",
+  "model": "Q7",
+  "yearFrom": 2017,
+  "yearTo": 2024,
+  "sizes": [
+   "255/60R18"
+  ],
+  "aliases": [
+   "ئاودی",
+   "اودي",
+   "كيو 7"
+  ]
+ },
+ {
+  "brand": "BAIC",
+  "model": "BJ40",
+  "yearFrom": 2018,
+  "yearTo": 2024,
+  "sizes": [
+   "265/65R17"
+  ],
+  "aliases": [
+   "بایک",
+   "بايك",
+   "بي جي 40"
+  ]
+ },
+ {
+  "brand": "BMW",
+  "model": "3 Series (F30)",
+  "yearFrom": 2012,
+  "yearTo": 2018,
+  "sizes": [
+   "225/50R17",
+   "225/45R18"
+  ],
+  "aliases": [
+   "بی ئێم دەبلیو",
+   "بي ام دبليو",
+   "بی ئێم",
+   "سيريز 3"
+  ]
+ },
+ {
+  "brand": "BMW",
+  "model": "3 Series (G20)",
+  "yearFrom": 2019,
+  "yearTo": 2025,
+  "sizes": [
+   "225/50R17"
+  ],
+  "aliases": [
+   "بی ئێم دەبلیو",
+   "بي ام دبليو",
+   "بی ئێم",
+   "سيريز 3"
+  ]
+ },
+ {
+  "brand": "BMW",
+  "model": "5 Series (F10)",
+  "yearFrom": 2011,
+  "yearTo": 2016,
+  "sizes": [
+   "225/55R17"
+  ],
+  "aliases": [
+   "بی ئێم دەبلیو",
+   "بي ام دبليو",
+   "بی ئێم",
+   "سيريز 5"
+  ]
+ },
+ {
+  "brand": "BMW",
+  "model": "5 Series (G30)",
+  "yearFrom": 2017,
+  "yearTo": 2023,
+  "sizes": [
+   "225/55R17",
+   "245/45R18"
+  ],
+  "aliases": [
+   "بی ئێم دەبلیو",
+   "بي ام دبليو",
+   "بی ئێم",
+   "سيريز 5"
+  ]
+ },
+ {
+  "brand": "BMW",
+  "model": "7 Series (G11)",
+  "yearFrom": 2016,
+  "yearTo": 2022,
+  "sizes": [
+   "245/50R18"
+  ],
+  "aliases": [
+   "بی ئێم دەبلیو",
+   "بي ام دبليو",
+   "بی ئێم",
+   "سيريز 7"
+  ]
+ },
+ {
+  "brand": "BMW",
+  "model": "X3",
+  "yearFrom": 2018,
+  "yearTo": 2024,
+  "sizes": [
+   "245/50R18"
+  ],
+  "aliases": [
+   "بی ئێم دەبلیو",
+   "بي ام دبليو",
+   "ئێکس 3",
+   "اكس 3"
+  ]
+ },
+ {
+  "brand": "BMW",
+  "model": "X5 (F15)",
+  "yearFrom": 2014,
+  "yearTo": 2018,
+  "sizes": [
+   "255/55R18"
+  ],
+  "aliases": [
+   "بی ئێم دەبلیو",
+   "بي ام دبليو",
+   "ئێکس 5",
+   "اكس 5"
+  ]
+ },
+ {
+  "brand": "BMW",
+  "model": "X5 (G05)",
+  "yearFrom": 2019,
+  "yearTo": 2025,
+  "sizes": [
+   "265/50R19"
+  ],
+  "aliases": [
+   "بی ئێم دەبلیو",
+   "بي ام دبليو",
+   "ئێکس 5",
+   "اكس 5"
+  ]
+ },
+ {
   "brand": "BYD",
   "model": "Atto 3 (Yuan Plus)",
   "yearFrom": 2022,
@@ -202,6 +395,78 @@
   ]
  },
  {
+  "brand": "Cadillac",
+  "model": "ATS",
+  "yearFrom": 2013,
+  "yearTo": 2019,
+  "sizes": [
+   "225/45R17"
+  ],
+  "aliases": [
+   "کادیلاک",
+   "كاديلاك",
+   "اي تي اس"
+  ]
+ },
+ {
+  "brand": "Cadillac",
+  "model": "CT5",
+  "yearFrom": 2020,
+  "yearTo": 2025,
+  "sizes": [
+   "245/45R18"
+  ],
+  "aliases": [
+   "کادیلاک",
+   "كاديلاك",
+   "سي تي 5"
+  ]
+ },
+ {
+  "brand": "Cadillac",
+  "model": "Escalade",
+  "yearFrom": 2015,
+  "yearTo": 2020,
+  "sizes": [
+   "275/55R20"
+  ],
+  "aliases": [
+   "کادیلاک",
+   "كاديلاك",
+   "اسكاليد"
+  ]
+ },
+ {
+  "brand": "Cadillac",
+  "model": "Escalade",
+  "yearFrom": 2021,
+  "yearTo": 2025,
+  "sizes": [
+   "275/60R20",
+   "275/50R22"
+  ],
+  "aliases": [
+   "کادیلاک",
+   "كاديلاك",
+   "اسكاليد"
+  ]
+ },
+ {
+  "brand": "Cadillac",
+  "model": "XT5",
+  "yearFrom": 2017,
+  "yearTo": 2024,
+  "sizes": [
+   "235/65R18",
+   "235/55R20"
+  ],
+  "aliases": [
+   "کادیلاک",
+   "كاديلاك",
+   "اكس تي 5"
+  ]
+ },
+ {
   "brand": "Changan",
   "model": "CS35 Plus",
   "yearFrom": 2019,
@@ -213,6 +478,53 @@
    "چانگان",
    "شانجان",
    "جانجان"
+  ]
+ },
+ {
+  "brand": "Chery",
+  "model": "Arrizo 5",
+  "yearFrom": 2018,
+  "yearTo": 2025,
+  "sizes": [
+   "195/55R16",
+   "205/50R17"
+  ],
+  "aliases": [
+   "چێری",
+   "شيري",
+   "اريزو",
+   "ئەریزۆ"
+  ]
+ },
+ {
+  "brand": "Chery",
+  "model": "Tiggo 4 Pro",
+  "yearFrom": 2019,
+  "yearTo": 2025,
+  "sizes": [
+   "205/60R16",
+   "215/55R17"
+  ],
+  "aliases": [
+   "چێری",
+   "شيري",
+   "تيجو 4",
+   "تیگۆ 4"
+  ]
+ },
+ {
+  "brand": "Chery",
+  "model": "Tiggo 7 Pro",
+  "yearFrom": 2020,
+  "yearTo": 2025,
+  "sizes": [
+   "225/60R18"
+  ],
+  "aliases": [
+   "چێری",
+   "شيري",
+   "تيجو 7",
+   "تیگۆ 7"
   ]
  },
  {
@@ -230,6 +542,36 @@
   ]
  },
  {
+  "brand": "Chery",
+  "model": "Tiggo 8 Pro",
+  "yearFrom": 2021,
+  "yearTo": 2025,
+  "sizes": [
+   "235/50R19"
+  ],
+  "aliases": [
+   "چێری",
+   "شيري",
+   "تيجو 8",
+   "تیگۆ 8"
+  ]
+ },
+ {
+  "brand": "Chevrolet",
+  "model": "Aveo",
+  "yearFrom": 2011,
+  "yearTo": 2020,
+  "sizes": [
+   "195/65R15"
+  ],
+  "aliases": [
+   "شێڤرۆلێت",
+   "ئاڤیۆ",
+   "شفروليه",
+   "افيو"
+  ]
+ },
+ {
   "brand": "Chevrolet",
   "model": "Camaro",
   "yearFrom": 2016,
@@ -243,6 +585,21 @@
    "کەمارۆ",
    "شفروليه",
    "كمارو"
+  ]
+ },
+ {
+  "brand": "Chevrolet",
+  "model": "Captiva",
+  "yearFrom": 2011,
+  "yearTo": 2018,
+  "sizes": [
+   "235/60R17"
+  ],
+  "aliases": [
+   "شێڤرۆلێت",
+   "کاپتیڤا",
+   "شفروليه",
+   "كابتيفا"
   ]
  },
  {
@@ -264,6 +621,38 @@
  },
  {
   "brand": "Chevrolet",
+  "model": "Equinox",
+  "yearFrom": 2018,
+  "yearTo": 2024,
+  "sizes": [
+   "225/65R17",
+   "235/50R19"
+  ],
+  "aliases": [
+   "شێڤرۆلێت",
+   "ئیکوینۆکس",
+   "شفروليه",
+   "اكوينوكس"
+  ]
+ },
+ {
+  "brand": "Chevrolet",
+  "model": "Impala",
+  "yearFrom": 2014,
+  "yearTo": 2020,
+  "sizes": [
+   "235/50R18",
+   "245/45R19"
+  ],
+  "aliases": [
+   "شێڤرۆلێت",
+   "ئیمپالا",
+   "شفروليه",
+   "امبالا"
+  ]
+ },
+ {
+  "brand": "Chevrolet",
   "model": "Malibu",
   "yearFrom": 2016,
   "yearTo": 2023,
@@ -281,6 +670,21 @@
  },
  {
   "brand": "Chevrolet",
+  "model": "Optra",
+  "yearFrom": 2004,
+  "yearTo": 2010,
+  "sizes": [
+   "195/55R15"
+  ],
+  "aliases": [
+   "شێڤرۆلێت",
+   "ئۆپترا",
+   "شفروليه",
+   "اوبترا"
+  ]
+ },
+ {
+  "brand": "Chevrolet",
   "model": "Silverado",
   "yearFrom": 2014,
   "yearTo": 2018,
@@ -294,6 +698,37 @@
    "سلڤەرادۆ",
    "شفروليه",
    "سلفرادو"
+  ]
+ },
+ {
+  "brand": "Chevrolet",
+  "model": "Spark",
+  "yearFrom": 2016,
+  "yearTo": 2022,
+  "sizes": [
+   "165/65R14"
+  ],
+  "aliases": [
+   "شێڤرۆلێت",
+   "سپارک",
+   "شفروليه",
+   "سبارك"
+  ]
+ },
+ {
+  "brand": "Chevrolet",
+  "model": "Suburban",
+  "yearFrom": 2015,
+  "yearTo": 2020,
+  "sizes": [
+   "265/65R18",
+   "275/55R20"
+  ],
+  "aliases": [
+   "شێڤرۆلێت",
+   "سەبەربان",
+   "شفروليه",
+   "سوبربان"
   ]
  },
  {
@@ -327,6 +762,22 @@
    "تاهۆ",
    "شفروليه",
    "تاهو"
+  ]
+ },
+ {
+  "brand": "Chevrolet",
+  "model": "Traverse",
+  "yearFrom": 2018,
+  "yearTo": 2023,
+  "sizes": [
+   "255/65R18",
+   "255/55R20"
+  ],
+  "aliases": [
+   "شێڤرۆلێت",
+   "تراڤێرس",
+   "شفروليه",
+   "ترافيرس"
   ]
  },
  {
@@ -381,6 +832,67 @@
   ]
  },
  {
+  "brand": "Dodge",
+  "model": "Journey",
+  "yearFrom": 2012,
+  "yearTo": 2020,
+  "sizes": [
+   "225/65R17",
+   "225/55R19"
+  ],
+  "aliases": [
+   "دۆج",
+   "جۆرنی",
+   "دودج",
+   "جورني"
+  ]
+ },
+ {
+  "brand": "Dodge",
+  "model": "Ram 1500",
+  "yearFrom": 2013,
+  "yearTo": 2018,
+  "sizes": [
+   "265/70R17",
+   "275/60R20"
+  ],
+  "aliases": [
+   "دۆج",
+   "ڕام",
+   "دودج",
+   "رام"
+  ]
+ },
+ {
+  "brand": "Dodge",
+  "model": "Ram 1500",
+  "yearFrom": 2019,
+  "yearTo": 2024,
+  "sizes": [
+   "275/65R18"
+  ],
+  "aliases": [
+   "دۆج",
+   "ڕام",
+   "دودج",
+   "رام"
+  ]
+ },
+ {
+  "brand": "Exeed",
+  "model": "TXL",
+  "yearFrom": 2021,
+  "yearTo": 2025,
+  "sizes": [
+   "235/50R19"
+  ],
+  "aliases": [
+   "ئێکسید",
+   "اكسيد",
+   "تي اكس ال"
+  ]
+ },
+ {
   "brand": "Ford",
   "model": "Edge",
   "yearFrom": 2015,
@@ -395,6 +907,53 @@
    "ئێج",
    "فورد",
    "ايدج"
+  ]
+ },
+ {
+  "brand": "Ford",
+  "model": "Escape",
+  "yearFrom": 2013,
+  "yearTo": 2019,
+  "sizes": [
+   "235/55R17",
+   "235/50R18"
+  ],
+  "aliases": [
+   "فۆرد",
+   "ئێسکەیپ",
+   "فورد",
+   "اسكيب"
+  ]
+ },
+ {
+  "brand": "Ford",
+  "model": "Escape",
+  "yearFrom": 2020,
+  "yearTo": 2024,
+  "sizes": [
+   "225/65R17",
+   "225/60R18"
+  ],
+  "aliases": [
+   "فۆرد",
+   "ئێسکەیپ",
+   "فورد",
+   "اسكيب"
+  ]
+ },
+ {
+  "brand": "Ford",
+  "model": "Expedition",
+  "yearFrom": 2018,
+  "yearTo": 2024,
+  "sizes": [
+   "275/65R18"
+  ],
+  "aliases": [
+   "فۆرد",
+   "ئێکسپیدیشن",
+   "فورد",
+   "اكسبيدشن"
   ]
  },
  {
@@ -448,6 +1007,85 @@
  },
  {
   "brand": "Ford",
+  "model": "F-150",
+  "yearFrom": 2021,
+  "yearTo": 2025,
+  "sizes": [
+   "265/70R17",
+   "275/65R18"
+  ],
+  "aliases": [
+   "فۆرد",
+   "ئێف150",
+   "فورد",
+   "اف 150"
+  ]
+ },
+ {
+  "brand": "Ford",
+  "model": "Focus",
+  "yearFrom": 2012,
+  "yearTo": 2018,
+  "sizes": [
+   "215/55R16"
+  ],
+  "aliases": [
+   "فۆرد",
+   "فۆکەس",
+   "فورد",
+   "فوكس"
+  ]
+ },
+ {
+  "brand": "Ford",
+  "model": "Fusion",
+  "yearFrom": 2013,
+  "yearTo": 2020,
+  "sizes": [
+   "215/60R16",
+   "235/45R18"
+  ],
+  "aliases": [
+   "فۆرد",
+   "فیوژن",
+   "فورد",
+   "فيوجن"
+  ]
+ },
+ {
+  "brand": "Ford",
+  "model": "Mustang",
+  "yearFrom": 2015,
+  "yearTo": 2023,
+  "sizes": [
+   "235/55R17",
+   "255/40R19"
+  ],
+  "aliases": [
+   "فۆرد",
+   "مەستانگ",
+   "فورد",
+   "موستانج"
+  ]
+ },
+ {
+  "brand": "Ford",
+  "model": "Ranger",
+  "yearFrom": 2019,
+  "yearTo": 2024,
+  "sizes": [
+   "255/70R16",
+   "255/65R17"
+  ],
+  "aliases": [
+   "فۆرد",
+   "ڕەینجەر",
+   "فورد",
+   "رينجر"
+  ]
+ },
+ {
+  "brand": "Ford",
   "model": "Taurus",
   "yearFrom": 2013,
   "yearTo": 2019,
@@ -460,6 +1098,53 @@
    "تۆرەس",
    "فورد",
    "تورس"
+  ]
+ },
+ {
+  "brand": "Ford",
+  "model": "Transit (ڤان)",
+  "yearFrom": 2015,
+  "yearTo": 2024,
+  "sizes": [
+   "235/65R16C"
+  ],
+  "aliases": [
+   "فۆرد",
+   "ترانزیت",
+   "فورد",
+   "ترانزيت"
+  ]
+ },
+ {
+  "brand": "GMC",
+  "model": "Sierra",
+  "yearFrom": 2014,
+  "yearTo": 2018,
+  "sizes": [
+   "255/70R17",
+   "265/65R18"
+  ],
+  "aliases": [
+   "جی ئێم سی",
+   "سیێرا",
+   "جي ام سي",
+   "سييرا"
+  ]
+ },
+ {
+  "brand": "GMC",
+  "model": "Terrain",
+  "yearFrom": 2018,
+  "yearTo": 2024,
+  "sizes": [
+   "225/65R17",
+   "235/50R19"
+  ],
+  "aliases": [
+   "جی ئێم سی",
+   "تێرەین",
+   "جي ام سي",
+   "تيرين"
   ]
  },
  {
@@ -496,6 +1181,50 @@
   ]
  },
  {
+  "brand": "Geely",
+  "model": "Coolray",
+  "yearFrom": 2020,
+  "yearTo": 2025,
+  "sizes": [
+   "215/60R17"
+  ],
+  "aliases": [
+   "جیلی",
+   "جيلي",
+   "كولراي",
+   "کوولڕەی"
+  ]
+ },
+ {
+  "brand": "Geely",
+  "model": "Emgrand (EC7)",
+  "yearFrom": 2010,
+  "yearTo": 2020,
+  "sizes": [
+   "185/65R15"
+  ],
+  "aliases": [
+   "جیلی",
+   "جيلي",
+   "امجراند",
+   "ئێمگراند"
+  ]
+ },
+ {
+  "brand": "Genesis",
+  "model": "G70",
+  "yearFrom": 2019,
+  "yearTo": 2025,
+  "sizes": [
+   "225/45R18"
+  ],
+  "aliases": [
+   "جێنسیس",
+   "جينيسيس",
+   "جي 70"
+  ]
+ },
+ {
   "brand": "Genesis",
   "model": "G80",
   "yearFrom": 2017,
@@ -507,6 +1236,125 @@
   "aliases": [
    "جێنسیس",
    "جينيسيس"
+  ]
+ },
+ {
+  "brand": "Genesis",
+  "model": "G80",
+  "yearFrom": 2021,
+  "yearTo": 2025,
+  "sizes": [
+   "245/50R18",
+   "245/45R19"
+  ],
+  "aliases": [
+   "جێنسیس",
+   "جينيسيس",
+   "جي 80"
+  ]
+ },
+ {
+  "brand": "Genesis",
+  "model": "G90",
+  "yearFrom": 2017,
+  "yearTo": 2022,
+  "sizes": [
+   "245/50R18"
+  ],
+  "aliases": [
+   "جێنسیس",
+   "جينيسيس",
+   "جي 90"
+  ]
+ },
+ {
+  "brand": "Genesis",
+  "model": "GV70",
+  "yearFrom": 2022,
+  "yearTo": 2025,
+  "sizes": [
+   "235/60R18",
+   "235/55R19"
+  ],
+  "aliases": [
+   "جێنسیس",
+   "جينيسيس",
+   "جي في 70"
+  ]
+ },
+ {
+  "brand": "Great Wall",
+  "model": "Poer (پیکاب)",
+  "yearFrom": 2021,
+  "yearTo": 2025,
+  "sizes": [
+   "265/60R18"
+  ],
+  "aliases": [
+   "گریت وۆڵ",
+   "جريت وول",
+   "بوير",
+   "پۆیەر"
+  ]
+ },
+ {
+  "brand": "Great Wall",
+  "model": "Wingle (پیکاب)",
+  "yearFrom": 2012,
+  "yearTo": 2024,
+  "sizes": [
+   "235/70R16"
+  ],
+  "aliases": [
+   "گریت وۆڵ",
+   "جريت وول",
+   "وينجل",
+   "وینگڵ"
+  ]
+ },
+ {
+  "brand": "Haval",
+  "model": "H6",
+  "yearFrom": 2021,
+  "yearTo": 2025,
+  "sizes": [
+   "225/60R18"
+  ],
+  "aliases": [
+   "هاڤاڵ",
+   "هافال",
+   "اتش 6",
+   "ئێچ 6"
+  ]
+ },
+ {
+  "brand": "Haval",
+  "model": "H9",
+  "yearFrom": 2017,
+  "yearTo": 2024,
+  "sizes": [
+   "265/60R18"
+  ],
+  "aliases": [
+   "هاڤاڵ",
+   "هافال",
+   "اتش 9",
+   "ئێچ 9"
+  ]
+ },
+ {
+  "brand": "Haval",
+  "model": "Jolion",
+  "yearFrom": 2021,
+  "yearTo": 2025,
+  "sizes": [
+   "215/60R17"
+  ],
+  "aliases": [
+   "هاڤاڵ",
+   "هافال",
+   "جوليون",
+   "جۆلیۆن"
   ]
  },
  {
@@ -944,6 +1792,21 @@
  },
  {
   "brand": "Hyundai",
+  "model": "Mighty (بارهەڵگر)",
+  "yearFrom": 2016,
+  "yearTo": 2024,
+  "sizes": [
+   "7.50R16"
+  ],
+  "aliases": [
+   "هیۆندای",
+   "هيونداي",
+   "مايتي",
+   "مایتی"
+  ]
+ },
+ {
+  "brand": "Hyundai",
   "model": "Palisade",
   "yearFrom": 2019,
   "yearTo": 2025,
@@ -956,6 +1819,21 @@
    "پالیسەید",
    "هيونداي",
    "باليسيد"
+  ]
+ },
+ {
+  "brand": "Hyundai",
+  "model": "Porter II (بارهەڵگر)",
+  "yearFrom": 2005,
+  "yearTo": 2024,
+  "sizes": [
+   "195/70R15C"
+  ],
+  "aliases": [
+   "هیۆندای",
+   "هيونداي",
+   "بورتر",
+   "پۆرتەر"
   ]
  },
  {
@@ -1145,6 +2023,213 @@
   ]
  },
  {
+  "brand": "IKCO",
+  "model": "Arisun (پیکاب)",
+  "yearFrom": 2015,
+  "yearTo": 2023,
+  "sizes": [
+   "185R14C"
+  ],
+  "aliases": [
+   "ئێران خۆدرۆ",
+   "ايران خودرو",
+   "اريسان",
+   "ئەریسان"
+  ]
+ },
+ {
+  "brand": "IKCO",
+  "model": "Dena",
+  "yearFrom": 2015,
+  "yearTo": 2024,
+  "sizes": [
+   "185/65R15"
+  ],
+  "aliases": [
+   "ئێران خۆدرۆ",
+   "ايران خودرو",
+   "دينا",
+   "دێنا"
+  ]
+ },
+ {
+  "brand": "IKCO",
+  "model": "Peugeot 206 (ئێرانی)",
+  "yearFrom": 2001,
+  "yearTo": 2020,
+  "sizes": [
+   "175/65R14"
+  ],
+  "aliases": [
+   "ئێران خۆدرۆ",
+   "ايران خودرو",
+   "206"
+  ]
+ },
+ {
+  "brand": "IKCO",
+  "model": "Peugeot 405",
+  "yearFrom": 1993,
+  "yearTo": 2020,
+  "sizes": [
+   "185/65R14"
+  ],
+  "aliases": [
+   "ئێران خۆدرۆ",
+   "ايران خودرو",
+   "405",
+   "بيجو 405"
+  ]
+ },
+ {
+  "brand": "IKCO",
+  "model": "Peugeot Pars",
+  "yearFrom": 2000,
+  "yearTo": 2023,
+  "sizes": [
+   "185/65R14"
+  ],
+  "aliases": [
+   "ئێران خۆدرۆ",
+   "ايران خودرو",
+   "بارس",
+   "پارس"
+  ]
+ },
+ {
+  "brand": "IKCO",
+  "model": "Samand",
+  "yearFrom": 2002,
+  "yearTo": 2020,
+  "sizes": [
+   "185/65R15"
+  ],
+  "aliases": [
+   "ئێران خۆدرۆ",
+   "ايران خودرو",
+   "سمند",
+   "سەمەند"
+  ]
+ },
+ {
+  "brand": "Isuzu",
+  "model": "D-Max",
+  "yearFrom": 2012,
+  "yearTo": 2024,
+  "sizes": [
+   "245/70R16",
+   "255/60R18"
+  ],
+  "aliases": [
+   "ئیسوزو",
+   "دی ماکس",
+   "ايسوزو",
+   "دي ماكس"
+  ]
+ },
+ {
+  "brand": "Isuzu",
+  "model": "MU-X",
+  "yearFrom": 2014,
+  "yearTo": 2024,
+  "sizes": [
+   "255/65R17",
+   "255/60R18"
+  ],
+  "aliases": [
+   "ئیسوزو",
+   "ئێم یو ئێکس",
+   "ايسوزو",
+   "ام يو اكس"
+  ]
+ },
+ {
+  "brand": "Isuzu",
+  "model": "NPR (بارهەڵگر)",
+  "yearFrom": 2008,
+  "yearTo": 2025,
+  "sizes": [
+   "195/75R16C",
+   "205/75R16C"
+  ],
+  "aliases": [
+   "ئیسوزو",
+   "ئێن پی ئاڕ",
+   "ايسوزو",
+   "ان بي ار"
+  ]
+ },
+ {
+  "brand": "JAC",
+  "model": "T8 (پیکاب)",
+  "yearFrom": 2018,
+  "yearTo": 2024,
+  "sizes": [
+   "245/70R16"
+  ],
+  "aliases": [
+   "جاک",
+   "جاك",
+   "تي 8"
+  ]
+ },
+ {
+  "brand": "Jaecoo",
+  "model": "J7",
+  "yearFrom": 2023,
+  "yearTo": 2025,
+  "sizes": [
+   "235/50R19"
+  ],
+  "aliases": [
+   "جەیکو",
+   "جايكو",
+   "جي 7"
+  ]
+ },
+ {
+  "brand": "Jaguar",
+  "model": "F-Pace",
+  "yearFrom": 2017,
+  "yearTo": 2024,
+  "sizes": [
+   "255/60R18"
+  ],
+  "aliases": [
+   "جاگوار",
+   "جاكوار",
+   "اف بيس"
+  ]
+ },
+ {
+  "brand": "Jaguar",
+  "model": "XE",
+  "yearFrom": 2016,
+  "yearTo": 2020,
+  "sizes": [
+   "225/45R17"
+  ],
+  "aliases": [
+   "جاگوار",
+   "جاكوار",
+   "اكس اي"
+  ]
+ },
+ {
+  "brand": "Jaguar",
+  "model": "XF",
+  "yearFrom": 2016,
+  "yearTo": 2023,
+  "sizes": [
+   "225/55R17"
+  ],
+  "aliases": [
+   "جاگوار",
+   "جاكوار",
+   "اكس اف"
+  ]
+ },
+ {
   "brand": "Jeep",
   "model": "Cherokee",
   "yearFrom": 2014,
@@ -1270,6 +2355,22 @@
    "ڕانگلەر",
    "جيب",
    "رانجلر"
+  ]
+ },
+ {
+  "brand": "Kia",
+  "model": "Bongo III (بارهەڵگر)",
+  "yearFrom": 2005,
+  "yearTo": 2024,
+  "sizes": [
+   "195/70R15C"
+  ],
+  "aliases": [
+   "کیا",
+   "كيا",
+   "بونجو",
+   "بۆنگۆ",
+   "حمل"
   ]
  },
  {
@@ -1614,6 +2715,82 @@
   ]
  },
  {
+  "brand": "Land Rover",
+  "model": "Defender",
+  "yearFrom": 2020,
+  "yearTo": 2025,
+  "sizes": [
+   "255/70R18"
+  ],
+  "aliases": [
+   "لاند ڕۆڤەر",
+   "دیفێندەر",
+   "لاندروفر",
+   "دفندر"
+  ]
+ },
+ {
+  "brand": "Land Rover",
+  "model": "Discovery",
+  "yearFrom": 2017,
+  "yearTo": 2024,
+  "sizes": [
+   "255/60R19"
+  ],
+  "aliases": [
+   "لاند ڕۆڤەر",
+   "دیسکەڤەری",
+   "لاندروفر",
+   "دسكفري"
+  ]
+ },
+ {
+  "brand": "Land Rover",
+  "model": "Range Rover",
+  "yearFrom": 2013,
+  "yearTo": 2021,
+  "sizes": [
+   "255/55R20"
+  ],
+  "aliases": [
+   "لاند ڕۆڤەر",
+   "ڕەینج ڕۆڤەر",
+   "لاندروفر",
+   "رنج روفر",
+   "رينج"
+  ]
+ },
+ {
+  "brand": "Land Rover",
+  "model": "Range Rover Sport",
+  "yearFrom": 2014,
+  "yearTo": 2022,
+  "sizes": [
+   "255/55R20"
+  ],
+  "aliases": [
+   "لاند ڕۆڤەر",
+   "ڕەینج ڕۆڤەر",
+   "لاندروفر",
+   "رنج روفر",
+   "سبورت"
+  ]
+ },
+ {
+  "brand": "Lexus",
+  "model": "ES350",
+  "yearFrom": 2007,
+  "yearTo": 2012,
+  "sizes": [
+   "215/55R17"
+  ],
+  "aliases": [
+   "لێکزس",
+   "لكزس",
+   "ئی ئێس"
+  ]
+ },
+ {
   "brand": "Lexus",
   "model": "ES350",
   "yearFrom": 2013,
@@ -1648,6 +2825,48 @@
  },
  {
   "brand": "Lexus",
+  "model": "GX460",
+  "yearFrom": 2010,
+  "yearTo": 2023,
+  "sizes": [
+   "265/60R18"
+  ],
+  "aliases": [
+   "لێکزس",
+   "لكزس",
+   "جي اكس"
+  ]
+ },
+ {
+  "brand": "Lexus",
+  "model": "IS",
+  "yearFrom": 2014,
+  "yearTo": 2020,
+  "sizes": [
+   "225/45R17"
+  ],
+  "aliases": [
+   "لێکزس",
+   "لكزس",
+   "اي اس"
+  ]
+ },
+ {
+  "brand": "Lexus",
+  "model": "LS460",
+  "yearFrom": 2007,
+  "yearTo": 2017,
+  "sizes": [
+   "235/50R18"
+  ],
+  "aliases": [
+   "لێکزس",
+   "لكزس",
+   "ال اس"
+  ]
+ },
+ {
+  "brand": "Lexus",
   "model": "LX570",
   "yearFrom": 2008,
   "yearTo": 2021,
@@ -1658,6 +2877,50 @@
    "لێکزس",
    "لكزس",
    "ئێل ئێکس"
+  ]
+ },
+ {
+  "brand": "Lexus",
+  "model": "LX600",
+  "yearFrom": 2022,
+  "yearTo": 2025,
+  "sizes": [
+   "265/55R20"
+  ],
+  "aliases": [
+   "لێکزس",
+   "لكزس",
+   "ال اكس"
+  ]
+ },
+ {
+  "brand": "Lexus",
+  "model": "NX",
+  "yearFrom": 2015,
+  "yearTo": 2021,
+  "sizes": [
+   "225/65R17",
+   "225/60R18"
+  ],
+  "aliases": [
+   "لێکزس",
+   "لكزس",
+   "ان اكس"
+  ]
+ },
+ {
+  "brand": "Lexus",
+  "model": "RX350",
+  "yearFrom": 2010,
+  "yearTo": 2015,
+  "sizes": [
+   "235/60R18",
+   "235/55R19"
+  ],
+  "aliases": [
+   "لێکزس",
+   "لكزس",
+   "ئاڕ ئێکس"
   ]
  },
  {
@@ -1690,6 +2953,263 @@
   ]
  },
  {
+  "brand": "Mazda",
+  "model": "CX-30",
+  "yearFrom": 2020,
+  "yearTo": 2025,
+  "sizes": [
+   "215/55R18"
+  ],
+  "aliases": [
+   "مازدا",
+   "سی ئێکس 30",
+   "سي اكس 30"
+  ]
+ },
+ {
+  "brand": "Mazda",
+  "model": "CX-5",
+  "yearFrom": 2017,
+  "yearTo": 2024,
+  "sizes": [
+   "225/65R17",
+   "225/55R19"
+  ],
+  "aliases": [
+   "مازدا",
+   "سی ئێکس 5",
+   "سي اكس 5"
+  ]
+ },
+ {
+  "brand": "Mazda",
+  "model": "CX-9",
+  "yearFrom": 2016,
+  "yearTo": 2023,
+  "sizes": [
+   "255/60R18",
+   "255/50R20"
+  ],
+  "aliases": [
+   "مازدا",
+   "سی ئێکس 9",
+   "سي اكس 9"
+  ]
+ },
+ {
+  "brand": "Mazda",
+  "model": "Mazda2",
+  "yearFrom": 2015,
+  "yearTo": 2023,
+  "sizes": [
+   "185/65R15"
+  ],
+  "aliases": [
+   "مازدا",
+   "مازدا 2"
+  ]
+ },
+ {
+  "brand": "Mazda",
+  "model": "Mazda3",
+  "yearFrom": 2014,
+  "yearTo": 2018,
+  "sizes": [
+   "205/60R16",
+   "215/45R18"
+  ],
+  "aliases": [
+   "مازدا",
+   "مازدا 3"
+  ]
+ },
+ {
+  "brand": "Mazda",
+  "model": "Mazda3",
+  "yearFrom": 2019,
+  "yearTo": 2025,
+  "sizes": [
+   "205/60R16",
+   "215/45R18"
+  ],
+  "aliases": [
+   "مازدا",
+   "مازدا 3"
+  ]
+ },
+ {
+  "brand": "Mazda",
+  "model": "Mazda6",
+  "yearFrom": 2014,
+  "yearTo": 2021,
+  "sizes": [
+   "225/55R17",
+   "225/45R19"
+  ],
+  "aliases": [
+   "مازدا",
+   "مازدا 6"
+  ]
+ },
+ {
+  "brand": "Mercedes-Benz",
+  "model": "C-Class (W205)",
+  "yearFrom": 2015,
+  "yearTo": 2021,
+  "sizes": [
+   "225/50R17",
+   "225/45R18"
+  ],
+  "aliases": [
+   "مەرسیدس",
+   "مرسيدس",
+   "بنز",
+   "سی کلاس",
+   "سي كلاس"
+  ]
+ },
+ {
+  "brand": "Mercedes-Benz",
+  "model": "E-Class (W213)",
+  "yearFrom": 2017,
+  "yearTo": 2023,
+  "sizes": [
+   "245/45R18"
+  ],
+  "aliases": [
+   "مەرسیدس",
+   "مرسيدس",
+   "بنز",
+   "ئی کلاس",
+   "اي كلاس"
+  ]
+ },
+ {
+  "brand": "Mercedes-Benz",
+  "model": "G-Class",
+  "yearFrom": 2019,
+  "yearTo": 2025,
+  "sizes": [
+   "275/55R19"
+  ],
+  "aliases": [
+   "مەرسیدس",
+   "مرسيدس",
+   "بنز",
+   "جی کلاس",
+   "جي كلاس"
+  ]
+ },
+ {
+  "brand": "Mercedes-Benz",
+  "model": "GLC",
+  "yearFrom": 2016,
+  "yearTo": 2022,
+  "sizes": [
+   "235/60R18",
+   "235/55R19"
+  ],
+  "aliases": [
+   "مەرسیدس",
+   "مرسيدس",
+   "بنز",
+   "جي ال سي"
+  ]
+ },
+ {
+  "brand": "Mercedes-Benz",
+  "model": "GLE",
+  "yearFrom": 2016,
+  "yearTo": 2025,
+  "sizes": [
+   "255/50R19"
+  ],
+  "aliases": [
+   "مەرسیدس",
+   "مرسيدس",
+   "بنز",
+   "جي ال اي"
+  ]
+ },
+ {
+  "brand": "Mercedes-Benz",
+  "model": "S-Class (W222)",
+  "yearFrom": 2014,
+  "yearTo": 2020,
+  "sizes": [
+   "245/50R18"
+  ],
+  "aliases": [
+   "مەرسیدس",
+   "مرسيدس",
+   "بنز",
+   "ئێس کلاس",
+   "اس كلاس"
+  ]
+ },
+ {
+  "brand": "Mitsubishi",
+  "model": "ASX",
+  "yearFrom": 2011,
+  "yearTo": 2022,
+  "sizes": [
+   "215/65R16"
+  ],
+  "aliases": [
+   "میتسۆبیشی",
+   "ئەی ئێس ئێکس",
+   "ميتسوبيشي",
+   "اي اس اكس"
+  ]
+ },
+ {
+  "brand": "Mitsubishi",
+  "model": "Attrage",
+  "yearFrom": 2014,
+  "yearTo": 2024,
+  "sizes": [
+   "175/65R14"
+  ],
+  "aliases": [
+   "میتسۆبیشی",
+   "ئەتراژ",
+   "ميتسوبيشي",
+   "اتراج"
+  ]
+ },
+ {
+  "brand": "Mitsubishi",
+  "model": "Canter (بارهەڵگر)",
+  "yearFrom": 2005,
+  "yearTo": 2024,
+  "sizes": [
+   "205/75R16C",
+   "7.50R16"
+  ],
+  "aliases": [
+   "میتسۆبیشی",
+   "کانتەر",
+   "ميتسوبيشي",
+   "كانتر",
+   "فوسو"
+  ]
+ },
+ {
+  "brand": "Mitsubishi",
+  "model": "Eclipse Cross",
+  "yearFrom": 2018,
+  "yearTo": 2024,
+  "sizes": [
+   "225/55R18"
+  ],
+  "aliases": [
+   "میتسۆبیشی",
+   "ئیکلیپس کرۆس",
+   "ميتسوبيشي",
+   "اكليبس"
+  ]
+ },
+ {
   "brand": "Mitsubishi",
   "model": "L200",
   "yearFrom": 2015,
@@ -1719,6 +3239,22 @@
    "لانسەر",
    "ميتسوبيشي",
    "لانسر"
+  ]
+ },
+ {
+  "brand": "Mitsubishi",
+  "model": "Outlander",
+  "yearFrom": 2014,
+  "yearTo": 2021,
+  "sizes": [
+   "215/70R16",
+   "225/55R18"
+  ],
+  "aliases": [
+   "میتسۆبیشی",
+   "ئاوتلاندەر",
+   "ميتسوبيشي",
+   "اوتلاندر"
   ]
  },
  {
@@ -2092,6 +3628,49 @@
  },
  {
   "brand": "Peugeot",
+  "model": "2008",
+  "yearFrom": 2020,
+  "yearTo": 2024,
+  "sizes": [
+   "215/60R17"
+  ],
+  "aliases": [
+   "پێژۆ",
+   "بيجو",
+   "2008"
+  ]
+ },
+ {
+  "brand": "Peugeot",
+  "model": "206",
+  "yearFrom": 1999,
+  "yearTo": 2012,
+  "sizes": [
+   "175/65R14"
+  ],
+  "aliases": [
+   "پێژۆ",
+   "بيجو",
+   "206"
+  ]
+ },
+ {
+  "brand": "Peugeot",
+  "model": "3008",
+  "yearFrom": 2017,
+  "yearTo": 2024,
+  "sizes": [
+   "215/65R17",
+   "225/55R18"
+  ],
+  "aliases": [
+   "پێژۆ",
+   "بيجو",
+   "3008"
+  ]
+ },
+ {
+  "brand": "Peugeot",
   "model": "301",
   "yearFrom": 2013,
   "yearTo": 2022,
@@ -2103,6 +3682,82 @@
    "پیجۆ",
    "بيجو",
    "بيجو 301"
+  ]
+ },
+ {
+  "brand": "Peugeot",
+  "model": "508",
+  "yearFrom": 2019,
+  "yearTo": 2024,
+  "sizes": [
+   "215/55R17",
+   "235/45R18"
+  ],
+  "aliases": [
+   "پێژۆ",
+   "بيجو",
+   "508"
+  ]
+ },
+ {
+  "brand": "Porsche",
+  "model": "Cayenne",
+  "yearFrom": 2011,
+  "yearTo": 2017,
+  "sizes": [
+   "255/55R18"
+  ],
+  "aliases": [
+   "پۆرشە",
+   "بورش",
+   "کایان",
+   "كايين"
+  ]
+ },
+ {
+  "brand": "Porsche",
+  "model": "Cayenne",
+  "yearFrom": 2018,
+  "yearTo": 2025,
+  "sizes": [
+   "255/55R19"
+  ],
+  "aliases": [
+   "پۆرشە",
+   "بورش",
+   "کایان",
+   "كايين"
+  ]
+ },
+ {
+  "brand": "Porsche",
+  "model": "Macan",
+  "yearFrom": 2015,
+  "yearTo": 2024,
+  "sizes": [
+   "235/60R18",
+   "255/55R18"
+  ],
+  "aliases": [
+   "پۆرشە",
+   "بورش",
+   "ماکان",
+   "ماكان"
+  ]
+ },
+ {
+  "brand": "Porsche",
+  "model": "Panamera",
+  "yearFrom": 2017,
+  "yearTo": 2024,
+  "sizes": [
+   "265/45R19"
+  ],
+  "aliases": [
+   "پۆرشە",
+   "بورش",
+   "پانامێرا",
+   "بانوراما"
   ]
  },
  {
@@ -2118,6 +3773,393 @@
    "داستەر",
    "رينو",
    "داستر"
+  ]
+ },
+ {
+  "brand": "Renault",
+  "model": "Koleos",
+  "yearFrom": 2017,
+  "yearTo": 2024,
+  "sizes": [
+   "225/60R18"
+  ],
+  "aliases": [
+   "ڕێنو",
+   "رينو",
+   "كوليوس",
+   "کۆلیۆس"
+  ]
+ },
+ {
+  "brand": "Renault",
+  "model": "Logan",
+  "yearFrom": 2013,
+  "yearTo": 2023,
+  "sizes": [
+   "185/65R15"
+  ],
+  "aliases": [
+   "ڕێنو",
+   "رينو",
+   "لوجان",
+   "لۆگان"
+  ]
+ },
+ {
+  "brand": "Renault",
+  "model": "Megane",
+  "yearFrom": 2016,
+  "yearTo": 2023,
+  "sizes": [
+   "205/55R16"
+  ],
+  "aliases": [
+   "ڕێنو",
+   "رينو",
+   "ميجان",
+   "مێگان"
+  ]
+ },
+ {
+  "brand": "Renault",
+  "model": "Symbol",
+  "yearFrom": 2013,
+  "yearTo": 2020,
+  "sizes": [
+   "185/65R15"
+  ],
+  "aliases": [
+   "ڕێنو",
+   "رينو",
+   "سيمبول"
+  ]
+ },
+ {
+  "brand": "Saipa",
+  "model": "Saba / 131 / 132 (Pride)",
+  "yearFrom": 1995,
+  "yearTo": 2020,
+  "sizes": [
+   "155/70R13",
+   "165/65R13"
+  ],
+  "aliases": [
+   "سایپا",
+   "صايبا",
+   "برايد",
+   "پراید",
+   "صبا"
+  ]
+ },
+ {
+  "brand": "Saipa",
+  "model": "Tiba / Saina / Quick",
+  "yearFrom": 2010,
+  "yearTo": 2024,
+  "sizes": [
+   "175/60R13"
+  ],
+  "aliases": [
+   "سایپا",
+   "صايبا",
+   "تيبا",
+   "تیبا",
+   "ساينا",
+   "كويك"
+  ]
+ },
+ {
+  "brand": "Saipa",
+  "model": "Zamyad Z24 (پیکاب)",
+  "yearFrom": 1990,
+  "yearTo": 2023,
+  "sizes": [
+   "6.50R14"
+  ],
+  "aliases": [
+   "سایپا",
+   "صايبا",
+   "زامياد",
+   "زامیاد",
+   "زد 24"
+  ]
+ },
+ {
+  "brand": "Subaru",
+  "model": "Forester",
+  "yearFrom": 2019,
+  "yearTo": 2024,
+  "sizes": [
+   "225/60R17",
+   "225/55R18"
+  ],
+  "aliases": [
+   "سوبارو",
+   "فۆرێستەر",
+   "فورستر"
+  ]
+ },
+ {
+  "brand": "Subaru",
+  "model": "Impreza",
+  "yearFrom": 2017,
+  "yearTo": 2023,
+  "sizes": [
+   "205/55R16",
+   "205/50R17"
+  ],
+  "aliases": [
+   "سوبارو",
+   "ئیمپرێزا",
+   "امبريزا"
+  ]
+ },
+ {
+  "brand": "Subaru",
+  "model": "Outback",
+  "yearFrom": 2015,
+  "yearTo": 2025,
+  "sizes": [
+   "225/65R17",
+   "225/60R18"
+  ],
+  "aliases": [
+   "سوبارو",
+   "ئاوتباک",
+   "اوتباك"
+  ]
+ },
+ {
+  "brand": "Subaru",
+  "model": "XV (Crosstrek)",
+  "yearFrom": 2018,
+  "yearTo": 2023,
+  "sizes": [
+   "225/60R17",
+   "225/55R18"
+  ],
+  "aliases": [
+   "سوبارو",
+   "ئێکس ڤی",
+   "كروستريك"
+  ]
+ },
+ {
+  "brand": "Suzuki",
+  "model": "Alto",
+  "yearFrom": 2015,
+  "yearTo": 2024,
+  "sizes": [
+   "145/80R13"
+  ],
+  "aliases": [
+   "سوزوکی",
+   "ئاڵتۆ",
+   "سوزوكي",
+   "التو"
+  ]
+ },
+ {
+  "brand": "Suzuki",
+  "model": "Baleno",
+  "yearFrom": 2016,
+  "yearTo": 2024,
+  "sizes": [
+   "185/65R15",
+   "195/55R16"
+  ],
+  "aliases": [
+   "سوزوکی",
+   "بالینۆ",
+   "سوزوكي",
+   "بالينو"
+  ]
+ },
+ {
+  "brand": "Suzuki",
+  "model": "Carry (بارهەڵگری بچووک)",
+  "yearFrom": 2015,
+  "yearTo": 2024,
+  "sizes": [
+   "145R12C"
+  ],
+  "aliases": [
+   "سوزوکی",
+   "کاری",
+   "سوزوكي",
+   "كاري"
+  ]
+ },
+ {
+  "brand": "Suzuki",
+  "model": "Ciaz",
+  "yearFrom": 2015,
+  "yearTo": 2023,
+  "sizes": [
+   "185/65R15",
+   "195/55R16"
+  ],
+  "aliases": [
+   "سوزوکی",
+   "سیاز",
+   "سوزوكي",
+   "سياز"
+  ]
+ },
+ {
+  "brand": "Suzuki",
+  "model": "Dzire",
+  "yearFrom": 2017,
+  "yearTo": 2024,
+  "sizes": [
+   "165/80R14",
+   "185/65R15"
+  ],
+  "aliases": [
+   "سوزوکی",
+   "دیزایەر",
+   "سوزوكي",
+   "دزاير"
+  ]
+ },
+ {
+  "brand": "Suzuki",
+  "model": "Ertiga",
+  "yearFrom": 2019,
+  "yearTo": 2024,
+  "sizes": [
+   "185/65R15"
+  ],
+  "aliases": [
+   "سوزوکی",
+   "ئێرتیگا",
+   "سوزوكي",
+   "ارتيجا"
+  ]
+ },
+ {
+  "brand": "Suzuki",
+  "model": "Grand Vitara",
+  "yearFrom": 2006,
+  "yearTo": 2015,
+  "sizes": [
+   "225/70R16",
+   "225/65R17"
+  ],
+  "aliases": [
+   "سوزوکی",
+   "گراند ڤیتارا",
+   "سوزوكي",
+   "جراند فيتارا"
+  ]
+ },
+ {
+  "brand": "Suzuki",
+  "model": "Jimny",
+  "yearFrom": 2019,
+  "yearTo": 2025,
+  "sizes": [
+   "195/80R15"
+  ],
+  "aliases": [
+   "سوزوکی",
+   "جیمنی",
+   "سوزوكي",
+   "جمني"
+  ]
+ },
+ {
+  "brand": "Suzuki",
+  "model": "Swift",
+  "yearFrom": 2018,
+  "yearTo": 2024,
+  "sizes": [
+   "175/65R15",
+   "185/55R16"
+  ],
+  "aliases": [
+   "سوزوکی",
+   "سویفت",
+   "سوزوكي",
+   "سويفت"
+  ]
+ },
+ {
+  "brand": "Suzuki",
+  "model": "Vitara",
+  "yearFrom": 2016,
+  "yearTo": 2024,
+  "sizes": [
+   "215/60R16",
+   "215/55R17"
+  ],
+  "aliases": [
+   "سوزوکی",
+   "ڤیتارا",
+   "سوزوكي",
+   "فيتارا"
+  ]
+ },
+ {
+  "brand": "Tesla",
+  "model": "Model 3",
+  "yearFrom": 2018,
+  "yearTo": 2023,
+  "sizes": [
+   "235/45R18",
+   "235/40R19"
+  ],
+  "aliases": [
+   "تێسلا",
+   "تسلا",
+   "مۆدێل 3",
+   "موديل 3"
+  ]
+ },
+ {
+  "brand": "Tesla",
+  "model": "Model S",
+  "yearFrom": 2016,
+  "yearTo": 2021,
+  "sizes": [
+   "245/45R19"
+  ],
+  "aliases": [
+   "تێسلا",
+   "تسلا",
+   "مۆدێل ئێس",
+   "موديل اس"
+  ]
+ },
+ {
+  "brand": "Tesla",
+  "model": "Model X",
+  "yearFrom": 2016,
+  "yearTo": 2021,
+  "sizes": [
+   "265/45R20"
+  ],
+  "aliases": [
+   "تێسلا",
+   "تسلا",
+   "مۆدێل ئێکس",
+   "موديل اكس"
+  ]
+ },
+ {
+  "brand": "Tesla",
+  "model": "Model Y",
+  "yearFrom": 2020,
+  "yearTo": 2025,
+  "sizes": [
+   "255/45R19",
+   "255/40R20"
+  ],
+  "aliases": [
+   "تێسلا",
+   "تسلا",
+   "مۆدێل وای",
+   "موديل واي"
   ]
  },
  {
@@ -2676,6 +4718,54 @@
  },
  {
   "brand": "Volkswagen",
+  "model": "Golf",
+  "yearFrom": 2013,
+  "yearTo": 2020,
+  "sizes": [
+   "195/65R15",
+   "205/55R16"
+  ],
+  "aliases": [
+   "فۆلکسواگن",
+   "فولكس",
+   "گۆڵف",
+   "جولف"
+  ]
+ },
+ {
+  "brand": "Volkswagen",
+  "model": "Jetta",
+  "yearFrom": 2011,
+  "yearTo": 2018,
+  "sizes": [
+   "205/55R16",
+   "225/45R17"
+  ],
+  "aliases": [
+   "فۆلکسواگن",
+   "فولكس",
+   "جێتا",
+   "جيتا"
+  ]
+ },
+ {
+  "brand": "Volkswagen",
+  "model": "Jetta",
+  "yearFrom": 2019,
+  "yearTo": 2024,
+  "sizes": [
+   "205/60R16",
+   "205/55R17"
+  ],
+  "aliases": [
+   "فۆلکسواگن",
+   "فولكس",
+   "جێتا",
+   "جيتا"
+  ]
+ },
+ {
+  "brand": "Volkswagen",
   "model": "Passat",
   "yearFrom": 2012,
   "yearTo": 2019,
@@ -2689,6 +4779,37 @@
    "پاسات",
    "فولكس",
    "باسات"
+  ]
+ },
+ {
+  "brand": "Volkswagen",
+  "model": "Tiguan",
+  "yearFrom": 2018,
+  "yearTo": 2024,
+  "sizes": [
+   "215/65R17",
+   "235/55R18"
+  ],
+  "aliases": [
+   "فۆلکسواگن",
+   "فولكس",
+   "تیگوان",
+   "تيجوان"
+  ]
+ },
+ {
+  "brand": "Volkswagen",
+  "model": "Touareg",
+  "yearFrom": 2011,
+  "yearTo": 2018,
+  "sizes": [
+   "255/55R18"
+  ],
+  "aliases": [
+   "فۆلکسواگن",
+   "فولكس",
+   "تووارێگ",
+   "طوارق"
   ]
  }
 ]
