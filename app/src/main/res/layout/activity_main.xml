@@ -6,119 +6,188 @@
     android:orientation="vertical"
     android:layoutDirection="rtl">
 
-    <LinearLayout
+    <FrameLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:background="@color/primary"
-        android:padding="16dp">
+        android:layout_height="0dp"
+        android:layout_weight="1">
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/app_name"
-            android:textColor="#FFFFFF"
-            android:textSize="22sp"
-            android:textStyle="bold" />
-
-        <EditText
-            android:id="@+id/edtSearch"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="12dp"
-            android:background="#FFFFFF"
-            android:hint="@string/search_hint"
-            android:inputType="text"
-            android:padding="12dp"
-            android:textSize="15sp" />
-
-        <TextView
-            android:id="@+id/txtCount"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
-            android:textColor="#C8E6C9"
-            android:textSize="13sp" />
-    </LinearLayout>
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:padding="8dp"
-        android:text="@string/disclaimer"
-        android:textColor="#757575"
-        android:textSize="12sp" />
-
-    <com.google.android.material.button.MaterialButton
-        android:id="@+id/btnOnline"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginHorizontal="12dp"
-        android:backgroundTint="#0277BD"
-        android:text="@string/online_search"
-        android:textSize="15sp"
-        android:visibility="gone" />
-
-    <androidx.cardview.widget.CardView
-        android:id="@+id/aiCard"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="12dp"
-        android:visibility="gone"
-        app:cardBackgroundColor="#E1F5FE"
-        app:cardCornerRadius="10dp"
-        app:cardElevation="2dp">
-
+        <!-- ============ SEARCH VIEW ============ -->
         <LinearLayout
+            android:id="@+id/viewSearch"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:padding="14dp">
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@color/primary"
+                android:padding="16dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/app_name"
+                    android:textColor="#FFFFFF"
+                    android:textSize="22sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/edtSearch"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:background="#FFFFFF"
+                    android:hint="@string/search_hint"
+                    android:inputType="text"
+                    android:padding="12dp"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/txtCount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:textColor="#C8E6C9"
+                    android:textSize="13sp" />
+            </LinearLayout>
 
             <TextView
-                android:id="@+id/aiBadge"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/ai_badge"
-                android:textColor="#0277BD"
-                android:textSize="12sp"
-                android:textStyle="bold" />
-
-            <TextView
-                android:id="@+id/aiTitle"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="4dp"
-                android:layoutDirection="ltr"
-                android:textColor="#212121"
-                android:textSize="17sp"
-                android:textStyle="bold" />
-
-            <TextView
-                android:id="@+id/aiSizes"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="6dp"
-                android:layoutDirection="ltr"
-                android:textColor="#0277BD"
-                android:textSize="19sp"
-                android:textStyle="bold"
-                android:letterSpacing="0.05" />
-
-            <TextView
-                android:id="@+id/aiNote"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="8dp"
-                android:textColor="#546E7A"
+                android:padding="8dp"
+                android:text="@string/disclaimer"
+                android:textColor="#757575"
                 android:textSize="12sp" />
-        </LinearLayout>
-    </androidx.cardview.widget.CardView>
 
-    <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/recycler"
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnOnline"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="12dp"
+                android:backgroundTint="#0277BD"
+                android:text="@string/online_search"
+                android:textSize="15sp"
+                android:visibility="gone" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/aiCard"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="12dp"
+                android:visibility="gone"
+                app:cardBackgroundColor="#E1F5FE"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="2dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="14dp">
+
+                    <TextView android:id="@+id/aiBadge"
+                        android:layout_width="wrap_content" android:layout_height="wrap_content"
+                        android:text="@string/ai_badge" android:textColor="#0277BD"
+                        android:textSize="12sp" android:textStyle="bold" />
+                    <TextView android:id="@+id/aiTitle"
+                        android:layout_width="wrap_content" android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp" android:layoutDirection="ltr"
+                        android:textColor="#212121" android:textSize="17sp" android:textStyle="bold" />
+                    <TextView android:id="@+id/aiSizes"
+                        android:layout_width="wrap_content" android:layout_height="wrap_content"
+                        android:layout_marginTop="6dp" android:layoutDirection="ltr"
+                        android:textColor="#0277BD" android:textSize="19sp" android:textStyle="bold"
+                        android:letterSpacing="0.05" />
+                    <TextView android:id="@+id/aiNote"
+                        android:layout_width="wrap_content" android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp" android:textColor="#546E7A" android:textSize="12sp" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recycler"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:clipToPadding="false"
+                android:padding="8dp" />
+        </LinearLayout>
+
+        <!-- ============ STOCK VIEW ============ -->
+        <LinearLayout
+            android:id="@+id/viewStock"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@color/primary"
+                android:padding="16dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/stock_title"
+                    android:textColor="#FFFFFF"
+                    android:textSize="22sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/txtStockCount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:textColor="#C8E6C9"
+                    android:textSize="13sp" />
+            </LinearLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/txtStockEmpty"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:padding="30dp"
+                    android:text="@string/stock_empty"
+                    android:textColor="#8A969C"
+                    android:textSize="15sp" />
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/recyclerStock"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:clipToPadding="false"
+                    android:padding="8dp"
+                    android:paddingBottom="90dp" />
+
+                <com.google.android.material.floatingactionbutton.FloatingActionButton
+                    android:id="@+id/fabAdd"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|start"
+                    android:layout_margin="20dp"
+                    android:src="@drawable/ic_add"
+                    app:backgroundTint="@color/primary"
+                    app:tint="#FFFFFF" />
+            </FrameLayout>
+        </LinearLayout>
+    </FrameLayout>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNav"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:clipToPadding="false"
-        android:padding="8dp" />
+        android:layout_height="wrap_content"
+        android:background="@color/primaryDark"
+        app:itemIconTint="#FFFFFF"
+        app:itemTextColor="#FFFFFF"
+        app:menu="@menu/bottom_nav" />
 </LinearLayout>

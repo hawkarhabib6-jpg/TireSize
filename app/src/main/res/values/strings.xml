@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">قەبارەی تایە</string>
-    <string name="search_hint">گەڕان: ناوی ئۆتۆمبیل و ساڵ (Altima 2017 / ئالتیما)</string>
+    <string name="search_hint">گەڕان: ئۆتۆمبیل یان قەبارە (Altima 2017 / 215/55/17)</string>
     <string name="result_count">%d ئەنجام</string>
     <string name="disclaimer">تێبینی: قەبارەکان بەپێی جۆری تریم دەگۆڕێن — بۆ دڵنیابوون سەیری پلاکی ناو دەرگای شۆفێر بکە.</string>
     <string name="online_search">🌐 گەڕانی ئۆنلاین بۆ ئەم ئۆتۆمبیلە</string>
@@ -16,4 +16,17 @@
     <string name="online_error">گەڕانی ئۆنلاین سەرکەوتوو نەبوو — ئینتەرنێت و کلیلی API بپشکنە.</string>
     <string name="not_identified">نەناسرایەوە — براند و مۆدێل و ساڵەکە ڕوونتر بنووسە (بۆ نموونە: Peugeot 508 2021).</string>
     <string name="change_api_key">گۆڕینی کلیلی API</string>
+
+    <string name="nav_search">گەڕان</string>
+    <string name="nav_stock">تایە پڕفرۆشەکان</string>
+    <string name="stock_title">تایە پڕفرۆشەکان</string>
+    <string name="stock_empty">هێشتا هیچ تایەیەک تۆمار نەکراوە.\nدوگمەی + دابگرە بۆ زیادکردنی یەکەم تایە.</string>
+    <string name="add_tire">زیادکردنی تایە</string>
+    <string name="size_label">قەبارە (بۆ نموونە 215/55/17)</string>
+    <string name="note_label">تێبینی (براند، نرخ، بڕ… ئازاد)</string>
+    <string name="add">زیادکردن</string>
+    <string name="delete">سڕینەوە</string>
+    <string name="delete_confirm">ئەم تایەیە بسڕدرێتەوە؟</string>
+    <string name="invalid_size">تکایە قەبارەیەکی دروست بنووسە، بۆ نموونە: 215/55/17</string>
+    <string name="stock_count">%d تایە تۆمارکراوە</string>
 </resources>

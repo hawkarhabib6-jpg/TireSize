@@ -13,6 +13,13 @@ data class Car(
     fun matches(query: String): Boolean {
         if (query.isBlank()) return true
         val q = query.trim().lowercase()
+
+        // If the whole query looks like a tire size, match against sizes only
+        val sizeKey = TireSize.normalize(q)
+        if (sizeKey != null) {
+            return sizes.any { TireSize.normalize(it) == sizeKey }
+        }
+
         val words = q.split(Regex("\\s+"))
         return words.all { w ->
             val year = w.toIntOrNull()

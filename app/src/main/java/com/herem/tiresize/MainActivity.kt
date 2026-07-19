@@ -5,6 +5,7 @@ import android.os.Bundle
 import android.text.Editable
 import android.text.InputType
 import android.text.TextWatcher
+import android.view.LayoutInflater
 import android.view.View
 import android.widget.EditText
 import android.widget.TextView
@@ -14,11 +15,14 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.cardview.widget.CardView
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.google.android.material.bottomnavigation.BottomNavigationView
 import com.google.android.material.button.MaterialButton
+import com.google.android.material.floatingactionbutton.FloatingActionButton
 
 class MainActivity : AppCompatActivity() {
 
-    private lateinit var adapter: CarAdapter
+    // search
+    private lateinit var carAdapter: CarAdapter
     private lateinit var allCars: List<Car>
     private lateinit var txtCount: TextView
     private lateinit var edtSearch: EditText
@@ -28,6 +32,16 @@ class MainActivity : AppCompatActivity() {
     private lateinit var aiSizes: TextView
     private lateinit var aiNote: TextView
 
+    // stock
+    private lateinit var stockAdapter: StockAdapter
+    private lateinit var txtStockCount: TextView
+    private lateinit var txtStockEmpty: TextView
+    private lateinit var recyclerStock: RecyclerView
+
+    // views
+    private lateinit var viewSearch: View
+    private lateinit var viewStock: View
+
     private val prefs by lazy { getSharedPreferences("tiresize", Context.MODE_PRIVATE) }
     private var searching = false
 
@@ -35,12 +49,41 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        viewSearch = findViewById(R.id.viewSearch)
+        viewStock = findViewById(R.id.viewStock)
+
+        setupSearch()
+        setupStock()
+
+        val nav = findViewById<BottomNavigationView>(R.id.bottomNav)
+        nav.setOnItemSelectedListener { item ->
+            when (item.itemId) {
+                R.id.nav_search -> { showSearch(); true }
+                R.id.nav_stock -> { showStock(); true }
+                else -> false
+            }
+        }
+    }
+
+    private fun showSearch() {
+        viewSearch.visibility = View.VISIBLE
+        viewStock.visibility = View.GONE
+    }
+
+    private fun showStock() {
+        viewSearch.visibility = View.GONE
+        viewStock.visibility = View.VISIBLE
+        refreshStock()
+    }
+
+    // ---------- SEARCH ----------
+    private fun setupSearch() {
         allCars = CarRepository.load(this)
 
-        adapter = CarAdapter()
+        carAdapter = CarAdapter()
         val recycler = findViewById<RecyclerView>(R.id.recycler)
         recycler.layoutManager = LinearLayoutManager(this)
-        recycler.adapter = adapter
+        recycler.adapter = carAdapter
 
         txtCount = findViewById(R.id.txtCount)
         edtSearch = findViewById(R.id.edtSearch)
@@ -67,21 +110,19 @@ class MainActivity : AppCompatActivity() {
 
     private fun filter(query: String) {
         val result = allCars.filter { it.matches(query) }
-        adapter.submit(result)
+        carAdapter.submit(result)
         txtCount.text = getString(R.string.result_count, result.size)
-        btnOnline.visibility = if (query.isBlank()) View.GONE else View.VISIBLE
+        // online button only useful for non-size text queries
+        val show = query.isNotBlank() && !TireSize.isSizeQuery(query)
+        btnOnline.visibility = if (show) View.VISIBLE else View.GONE
     }
 
     private fun startOnlineSearch() {
         if (searching) return
         val query = edtSearch.text.toString().trim()
         if (query.isEmpty()) return
-
         val key = prefs.getString("api_key", "") ?: ""
-        if (key.isEmpty()) {
-            askApiKey(force = false)
-            return
-        }
+        if (key.isEmpty()) { askApiKey(force = false); return }
 
         searching = true
         aiCard.visibility = View.GONE
@@ -124,7 +165,6 @@ class MainActivity : AppCompatActivity() {
         input.inputType = InputType.TYPE_CLASS_TEXT or InputType.TYPE_TEXT_VARIATION_PASSWORD
         input.hint = getString(R.string.api_key_hint)
         if (force) input.setText(prefs.getString("api_key", "") ?: "")
-
         AlertDialog.Builder(this)
             .setTitle(R.string.api_key_title)
             .setMessage(R.string.api_key_message)
@@ -133,6 +173,58 @@ class MainActivity : AppCompatActivity() {
                 val key = input.text.toString().trim()
                 prefs.edit().putString("api_key", key).apply()
                 if (key.isNotEmpty() && !force) startOnlineSearch()
+            }
+            .setNegativeButton(R.string.cancel, null)
+            .show()
+    }
+
+    // ---------- STOCK ----------
+    private fun setupStock() {
+        txtStockCount = findViewById(R.id.txtStockCount)
+        txtStockEmpty = findViewById(R.id.txtStockEmpty)
+        recyclerStock = findViewById(R.id.recyclerStock)
+        recyclerStock.layoutManager = LinearLayoutManager(this)
+        stockAdapter = StockAdapter { tire -> confirmDelete(tire) }
+        recyclerStock.adapter = stockAdapter
+
+        findViewById<FloatingActionButton>(R.id.fabAdd).setOnClickListener { showAddDialog() }
+    }
+
+    private fun refreshStock() {
+        val list = StockStore.load(this)
+        stockAdapter.submit(list)
+        txtStockCount.text = getString(R.string.stock_count, list.size)
+        txtStockEmpty.visibility = if (list.isEmpty()) View.VISIBLE else View.GONE
+    }
+
+    private fun showAddDialog() {
+        val view = LayoutInflater.from(this).inflate(R.layout.dialog_add_tire, null)
+        val inSize = view.findViewById<EditText>(R.id.inSize)
+        val inNote = view.findViewById<EditText>(R.id.inNote)
+
+        AlertDialog.Builder(this)
+            .setTitle(R.string.add_tire)
+            .setView(view)
+            .setPositiveButton(R.string.add) { _, _ ->
+                val raw = inSize.text.toString().trim()
+                val norm = TireSize.normalize(raw)
+                if (norm == null) {
+                    Toast.makeText(this, R.string.invalid_size, Toast.LENGTH_LONG).show()
+                } else {
+                    StockStore.add(this, norm, inNote.text.toString().trim())
+                    refreshStock()
+                }
+            }
+            .setNegativeButton(R.string.cancel, null)
+            .show()
+    }
+
+    private fun confirmDelete(tire: StockTire) {
+        AlertDialog.Builder(this)
+            .setMessage(R.string.delete_confirm)
+            .setPositiveButton(R.string.delete) { _, _ ->
+                StockStore.delete(this, tire.id)
+                refreshStock()
             }
             .setNegativeButton(R.string.cancel, null)
             .show()
